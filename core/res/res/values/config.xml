@@ -137,38 +137,38 @@
     <bool name="config_disableTransitionAnimation">false</bool>
 
     <!-- The duration (in milliseconds) of a short animation. -->
-    <integer name="config_shortAnimTime">200</integer>
+    <integer name="config_shortAnimTime">100</integer>
 
     <!-- The duration (in milliseconds) of a medium-length animation. -->
-    <integer name="config_mediumAnimTime">400</integer>
+    <integer name="config_mediumAnimTime">200</integer>
 
     <!-- The duration (in milliseconds) of a long animation. -->
-    <integer name="config_longAnimTime">500</integer>
+    <integer name="config_longAnimTime">300</integer>
 
     <!-- The duration (in milliseconds) of the activity open/close and fragment open/close animations. -->
-    <integer name="config_activityShortDur">150</integer>
-    <integer name="config_activityDefaultDur">220</integer>
+    <integer name="config_activityShortDur">100</integer>
+    <integer name="config_activityDefaultDur">150</integer>
 
     <!-- Fade out time for screen rotation -->
-    <integer name="config_screen_rotation_fade_out">116</integer>
+    <integer name="config_screen_rotation_fade_out">80</integer>
 
     <!-- Fade in time for screen rotation -->
-    <integer name="config_screen_rotation_fade_in">233</integer>
+    <integer name="config_screen_rotation_fade_in">160</integer>
 
     <!-- Fade in delay time for screen rotation -->
-    <integer name="config_screen_rotation_fade_in_delay">100</integer>
+    <integer name="config_screen_rotation_fade_in_delay">50</integer>
 
     <!-- Total time for 90 degree screen rotation animations -->
-    <integer name="config_screen_rotation_total_90">333</integer>
+    <integer name="config_screen_rotation_total_90">120</integer>
 
     <!-- Total time for 180 degree screen rotation animation -->
-    <integer name="config_screen_rotation_total_180">433</integer>
+    <integer name="config_screen_rotation_total_180">210</integer>
 
     <!-- Total time for the rotation background color transition -->
-    <integer name="config_screen_rotation_color_transition">200</integer>
+    <integer name="config_screen_rotation_color_transition">100</integer>
 
     <!-- The duration (in milliseconds) of the tooltip show/hide animations. -->
-    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="config_tooltipAnimTime">80</integer>
 
     <!-- Duration for the dim animation behind a dialog.  This may be either
          a percentage, which is relative to the duration of the enter/open
