@@ -179,7 +179,7 @@
     <!-- The maximum width we would prefer dialogs to be.  0 if there is no
          maximum (let them grow as large as the screen).  Actual values are
          specified for -large and -xlarge configurations. -->
-    <dimen name="config_prefDialogWidth">320dp</dimen>
+    <dimen name="config_prefDialogWidth">0</dimen>
 
     <!-- Enables or disables fading edges when marquee is enabled in TextView.
          Off by default, since the framebuffer readback used to implement the
