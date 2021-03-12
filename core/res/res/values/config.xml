@@ -2733,7 +2733,7 @@
 
     <!-- The maximum number of visible recent tasks to be presented to the user through the
          SystemUI. Can be -1 if there is no maximum limit. -->
-    <integer name="config_maxNumVisibleRecentTasks_grid">9</integer>
+    <integer name="config_maxNumVisibleRecentTasks_grid">50</integer>
 
     <!-- The minimum number of visible recent tasks to be presented to the user through the
          SystemUI. Can be -1 if there is no minimum limit. -->
