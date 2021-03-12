@@ -3083,7 +3083,7 @@
     <integer name="config_faceMaxTemplatesPerUser">5</integer>
 
     <!-- For performance and storage reasons, limit the number of fingerprints per user -->
-    <integer name="config_fingerprintMaxTemplatesPerUser">5</integer>
+    <integer name="config_fingerprintMaxTemplatesPerUser">6</integer>
 
     <!-- Specify if the fingerprint hardware support gestures-->
     <bool name="config_fingerprintSupportsGestures">false</bool>
