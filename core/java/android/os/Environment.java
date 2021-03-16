@@ -1291,9 +1291,15 @@ public class Environment {
             return false;
         }
 
+        // DynaROM: always grant legacy storage. TODO: Add an override to app settings instead
+        /*
         boolean defaultScopedStorage = Compatibility.isChangeEnabled(DEFAULT_SCOPED_STORAGE);
         boolean forceEnableScopedStorage = Compatibility.isChangeEnabled(
                 FORCE_ENABLE_SCOPED_STORAGE);
+        */
+        boolean defaultScopedStorage = false;
+        boolean forceEnableScopedStorage = false;
+        
         // if Scoped Storage is strictly enforced, the app does *not* have legacy storage access
         // Note: does not require packagename/uid as this is directly called from an app process
         if (isScopedStorageEnforced(defaultScopedStorage, forceEnableScopedStorage)) {
